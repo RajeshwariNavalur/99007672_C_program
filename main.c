@@ -13,7 +13,9 @@ int main()
 { 
 	union my_name name;
 	int s;
+	 printf("Enter Name:\t");
 	 scanf("%s",&name.ch);
+	 
      s=char_sum(name);
 	 printf("sum=%x\n",s);
 	 
